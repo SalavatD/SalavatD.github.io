@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="ru">
+    <head>
+        <link rel="stylesheet" type="text/css" href="assets/style.css">
+        <title>{{ page.title }}</title>
+    </head>
+    <body class="white-theme">
+        <div class="header no-print">
+            <h1 class="margin-left margin-right">{{ page.title }}</h1>
+        </div>
+        <div class="content">
+            <div class="left-bar no-print">
+                <div class="contacts margin-left">
+                    <h3>Контакты</h3>
+                    <p>E-mail: <a href="mailto:dautovsalavatd@gmail.com">dautovsalavatd@gmail.com</a></p>
+                    <p>Мой <a href="https://t.me/SalavatDD">Telegram</a></p>
+                    <p>Мой <a href="https://github.com/SalavatD">GitHub</a></p>
+                </div>
+            </div>
+            <div class="main">
+                {{ content }}
+            </div>
+            <div class="right-bar no-print">
+                <div class="downloads margin-right">
+                    <h3>Опции</h3>
+                    <button class="button-toggle-mode">Тёмная тема</button>
+                    <p>
+                        <a href="https://github.com/SalavatD/cv/raw/main/Salavat_Dautov_CV.pdf">
+                            <button class="button-download-pdf">Скачать в PDF</button>
+                        </a>
+                    </p>
+                </div>
+            </div>
+        </div>
+        <div class="footer no-print">
+        </div>
+        <script type="text/javascript" src="assets/main.js"></script>
+    </body>
+</html>

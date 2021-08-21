@@ -1,55 +1,82 @@
-# Салават Даутов
-E-mail: [dautovsalavatd@gmail.com](mailto:dautovsalavatd@gmail.com)  
-Мой [GitHub](https://github.com/SalavatD)
-## Образование
+---
+layout: page
+title: "Салават Даутов"
+---
+
+### Образование
+
+<hr class="margin-right">
+
  - **Национальный исследовательский университет "МИЭТ"**  
-*Зеленоград, Москва  
-Информатика и вычислительная техника, 3 курс, бакалавриат  
-Сентябрь 2018 - Июль 2022*
+*Зеленоград, Москва.  
+Информатика и вычислительная техника, 4 курс, бакалавриат.  
+Сентябрь 2018 - Июль 2022.*
 
-## Навыки программирования
- - **Основные языки:** Java, C++.
- - **Также имею опыт работы с:** Python, C, SQL, C\#, SQL.
+### Технические навыки
 
-## Технические навыки
- - Имею опыт администрирования  серверов на базе **Linux**.
- - Знаком с технологиями **JDBC** и **Hibernate**.
- - Работал с БД **MySQL** и **MS SQL** и веб-серверами **Apache** и **nginx**.
- - Большой опыт использования **git**.
- - Уровень владения английским **Pre-Intermediate**.
+<hr class="margin-right">
 
-## Проекты
- - **Приложение для определения стоимости товаров в продуктовой корзине**  
+ - **Языки:** Java, C#, C++, Ruby, Python, SQL, PL/SQL, JavaScript, HTML, CSS.
+ - **Также имею небольшой опыт работы с:** Scala, Kotlin и TypeScript.
+ - Знаком с технологиями:  
+   **Backend:** Ruby on Rails, Node.js, JDBC, Hibernate, Java EE, ASP.NET, GraphQL.  
+   **Frontend:** Vue, Bootstrap.
+ - Имею опыт администрирования серверов на базе Linux и работы с Docker.
+ - Работал с большим количеством баз данных в том числе Oracle, SQL Server и PostgreSQL.
+ - Уверенный пользователь git.
+
+### Гибкие навыки
+
+<hr class="margin-right">
+
+ - Понимание принципов SOLID.
+ - Умение работать в команде.
+ - Уровень владения английским Pre-Intermediate.
+
+### Опыт работы
+
+<hr class="margin-right">
+
+- [**ООО Латера**](https://www.latera.ru/)  
+*Должность: Разработчик.  
+Июнь 2021 - настоящее время.*  
+Участвую в разработке биллинговой системы [**Гидра**](https://hydra-billing.ru/)  
+и opensource приложения для автоматизации заказов и бизнес процессов [**Гидра OMS**](https://hydra-oms.com/).
+
+### Стажировки
+
+<hr class="margin-right">
+
+ - [**Kaspersky SafeBoard 2019**](https://safeboard.kaspersky.ru/)  
+Обучался на стриме разработки в Лаборатории Касперского.
+
+### Онлайн курсы
+
+<hr class="margin-right">
+
+ - [**Искусство разработки на современном C++**](https://ru.coursera.org/specializations/c-plus-plus-modern-development)  
+Прошел 4 из 5 курсов специализации по разработке на C++ 17 от МФТИ и Яндекса на платформе Coursera.  
+<img src="/resources/certificates/cpp-modern-development/png/Coursera_JU744SDXBA7Y.png" alt="White Belt" height="125px">
+<img src="/resources/certificates/cpp-modern-development/png/Coursera_TPYYQRPJLK9N.png" alt="Yellow Belt" height="125px">
+<img src="/resources/certificates/cpp-modern-development/png/Coursera_5YH4TLBP3266.png" alt="Red Belt" height="125px">
+<img src="/resources/certificates/cpp-modern-development/png/Coursera_C9WP7D7J93K7.png" alt="Brown Belt" height="125px">
+
+### Проекты
+
+<hr class="margin-right">
+
+ - [**Приложение для определения стоимости товаров в продуктовой корзине**](https://github.com/SalavatD/MaiCsHackathon)  
 Это был проект для хакатона. Мы сделали простое приложение, которое определяет стоимость товаров по фотографии продуктовой корзины. Наша команда заняла второе место. Я занимался разработкой прототипа клиента для смартфона.  
 **Используемые технологии:** Для распознавания объектов на фотографии использовался сервис **Azure Custom Vision**, клиент был написан на **Xamarin**.  
-[Ссылка на репозиторий](https://github.com/SalavatD/MaiCsHackathon).
  - **MSP Game Hack**  
 Наша команда за два дня разработала трехуровневую игру на определенную тему. Каждый участник команды разрабатывал один из уровней игры. Мы взяли приз зрительских симпатий.  
 **Используемые технологии:** Для создания использовался игровой движок **Unity**.
- - **MoscowHackApplication**  
+ - [**MoscowHackApplication**](https://github.com/SalavatD/MoscowHackApplication)  
 Проект был разработан на Moscow.Hack 2019. Перед нами стояла задача: оптимизировать работу курьеров. Мы должны были разработать приложение, которое позволяло бы курьерам за кратчайший пройденный путь доставлять наибольшее число посылок. Я занимался разработкой клиента для курьеров.  
 **Используемые технологии:** Клиент был написан с использованием **Xamarin**.  
-[Ссылка на репозиторий](https://github.com/SalavatD/MoscowHackApplication).
- - **Snake**  
+ - [**Snake**](https://github.com/SalavatD/Snake)  
 Клиент-серверная реализация игры змейка.  
 **Используемые технологии:** Сервер был написан с использованием **ASP.NET Core**, клиент реализован на **WPF**.  
-[Ссылка на репозиторий](https://github.com/SalavatD/Snake).
- - **Wieno game**  
+ - [**Wieno game**](https://github.com/SalavatD/Wieno)  
 Приложение, которое я разработал во время изучения Unity.  
 **Используемые технологии**: Игровой движок **Unity**.  
-[Ссылка на репозиторий](https://github.com/SalavatD/Wieno). [Ссылка на Google Play](https://play.google.com/store/apps/details?id=com.anytrash.wieno).
-
-## Стажировки и курсы
- - **Kaspersky SafeBoard 2019**  
-Обучался на стриме разработки в Лаборатории Касперского.
-
-## Онлайн курсы
- - **Искусство разработки на современном C++**  
-Прошел 4 из 5 курсов специализации по разработке на C++ 17 от МФТИ и Яндекса на платформе Coursera.  
-[Ссылка на сертификаты](https://github.com/SalavatD/SalavatD.github.io/tree/master/%D0%98%D1%81%D0%BA%D1%83%D1%81%D1%81%D1%82%D0%B2%D0%BE%20%D1%80%D0%B0%D0%B7%D1%80%D0%B0%D0%B1%D0%BE%D1%82%D0%BA%D0%B8%20%D0%BD%D0%B0%20%D1%81%D0%BE%D0%B2%D1%80%D0%B5%D0%BC%D0%B5%D0%BD%D0%BD%D0%BE%D0%BC%20C%2B%2B).
-
-## О себе
-Я студент 3 курса.   
-Программирование на языках высокого уровня изучаю самостоятельно, так как большинство дисциплин моей специальности относится к разработке аппаратного обеспечения.  
-Имею опыт работы с FPGA **Xilinx** и **Altera** и реализациями на них процессорных архитектур **RISC-V** и **Nios II**.  
-В свободное время программирую **Arduino** и **Raspberry Pi** и пишу приложения для **Android**.

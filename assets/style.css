@@ -1,0 +1,95 @@
+@font-face {
+  font-family: "Computer Modern Unicode";
+  src: url(fonts/woff/cmunrm.woff) format("woff"),
+       url(fonts/woff/cmunrm.woff2) format("woff2");
+}
+
+@media print
+{    
+  .no-print {
+    display: none !important;
+  }
+}
+
+:root {
+  --dark-color: #222;
+  --white-color: #fff;
+  --link-color-dark: #0033cc;
+  --link-color-white: #809fff;
+}
+
+body {
+    font-family: "Computer Modern Unicode";
+}
+
+.left-bar, .main, .right-bar {
+    float: left;
+}
+
+.left-bar, .right-bar {
+    width: 25%;
+}
+
+.main {
+    width: 50%;
+}
+
+.margin-left {
+    margin-left: 25px;
+}
+
+.margin-right {
+    margin-right: 25px;
+}
+
+button {
+  font-family: "Computer Modern Unicode";
+  min-width: 155px;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  border: 1px solid;
+}
+
+hr {
+  height: 1px;
+  border-width: 0px;
+}
+
+body.white-theme {
+  color: var(--dark-color);
+  background: var(--white-color);
+}
+
+body.white-theme button {
+  background-color: var(--white-color);
+  color: var(--dark-color);
+  border-color: var(--dark-color);
+}
+
+body.white-theme hr {
+  background-color: var(--dark-color);
+}
+
+body.white-theme a {
+  color: var(--link-color-dark);
+}
+
+body.dark-theme {
+  color: var(--white-color);
+  background: var(--dark-color);
+}
+
+body.dark-theme button {
+  background-color: var(--dark-color);
+  color: var(--white-color);
+  border-color: var(--white-color);
+}
+
+body.dark-theme hr {
+  background-color: var(--white-color);
+}
+
+body.dark-theme a {
+  color: var(--link-color-white);
+}
